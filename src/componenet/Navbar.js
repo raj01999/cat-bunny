@@ -15,10 +15,10 @@ export default function Navbar({ setMypic }) {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-black bg-black">
+    <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
       <div className="container-fluid">
         <a className="navbar-brand" href="./" style={{ color: "white" }}>
-          Ramya
+          Bunny
         </a>
         <button
           className="navbar-toggler"
@@ -40,7 +40,7 @@ export default function Navbar({ setMypic }) {
                 href="./"
                 style={{ color: "white" }}
               >
-                Home
+                Cat
               </a>
             </li>
             <li className="nav-item">
